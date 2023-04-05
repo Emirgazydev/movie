@@ -1,0 +1,26 @@
+@import "src/components/style/footer";
+@import "src/components/style/header";
+@import "src/components/style/home";
+@import "src/components/style/popular";
+@import "src/components/style/top_rated";
+@import "src/components/style/moviedetails";
+@import "src/components/style/actors";
+@import "src/components/style/PeopleDetails";
+@import "src/components/style/PersonMovie";
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+#App {
+  background: rgb(110,110,111);
+  background: linear-gradient(139deg, rgba(110,110,111,1) 22%, rgba(120,119,119,0.8016456582633054) 53%, rgba(89,89,94,0.8184523809523809) 71%);
+}
